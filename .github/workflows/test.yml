@@ -48,4 +48,4 @@ jobs:
         ./ngrok tcp 3389 &
 
     - name: Send Guacamole Server URL (RDP accessible)
-      run: echo "Your Guacamole URL is: http://localhost:8080"
+      run: echo "Your Guacamole URL is"
